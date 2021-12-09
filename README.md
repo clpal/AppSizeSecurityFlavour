@@ -21,7 +21,10 @@ android.enableR8.fullMode=true
 3. proguard-rules.pro
 
 -keep class  example.clpal.proguard.MainActivity
+
 -keep class model.User
+
+
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep class * extends com.bumptech.glide.module.AppGlideModule {
  <init>(...);
