@@ -8,7 +8,11 @@ https://developer.android.com/studio/build/configure-apk-splits
 
 buildTypes {
         release {
+        
+        
             minifyEnabled true
+            
+            
             shrinkResources true
 
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
