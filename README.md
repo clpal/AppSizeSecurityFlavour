@@ -19,10 +19,8 @@ buildTypes {
         }
     }
 
-2:gradle.properties
-android.enableR8.fullMode=true
 
-3. proguard-rules.pro
+2. proguard-rules.pro
 
 -keep class  example.clpal.proguard.MainActivity
 
@@ -42,7 +40,8 @@ android.enableR8.fullMode=true
 }
         
         
-        
+    3:gradle.properties
+android.enableR8.fullMode=true
         
         
         
