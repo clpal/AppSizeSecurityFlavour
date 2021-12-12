@@ -1,51 +1,33 @@
-# Proguard
-https://developer.android.com/studio/build/shrink-code
 
+https://developer.android.com/studio/build/shrink-code
 
 https://developer.android.com/studio/build/configure-apk-splits
 
+# AppSize 
 1: app:build.gradle
 
 buildTypes {
         release {
         
-        
             minifyEnabled true
-            
-            
             shrinkResources true
-
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 
-
+#Security
 2. proguard-rules.pro
 
 -keep class  example.clpal.proguard.MainActivity
-
 -keep class model.User
-
-
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep class * extends com.bumptech.glide.module.AppGlideModule {
  <init>(...);
 }
--keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
-  **[] $VALUES;
-  public *;
-}
--keep class com.bumptech.glide.load.data.ParcelFileDescriptorRewinder$InternalRewinder {
-  *** rewind();
-}
-        
-        
+    
     3:gradle.properties
 android.enableR8.fullMode=true
-        
-        
-        
-        
+            
 4. ProGuard makes the following impact on our project    
 
 1. Minify(reduce,decrease,shorten)the code  It reduces the size of the application.
