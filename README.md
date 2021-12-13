@@ -35,13 +35,13 @@ android.enableR8.fullMode=true
 3.Optimize the code  It makes the application difficult to reverse engineer by obfuscating the code.
  # Flavour
     <product-flavor><Build-Type>
-demoDebug
+freeDebug
             
-demoRelease
+freeRelease
             
-fullDebug
+paidDebug
             
-fullRelease
+paidRelease
             
             
 example.clpal.proguard.free.debug
