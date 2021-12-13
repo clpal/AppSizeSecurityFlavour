@@ -34,6 +34,7 @@ android.enableR8.fullMode=true
 2. Obfuscate(shade ,black out) It removes the unused classes and methods that contribute to the 64K method counts limit of an Android application.
 3.Optimize the code  It makes the application difficult to reverse engineer by obfuscating the code.
  # Flavour
+        applicationIdSuffix
     <product-flavor><Build-Type>
 freeDebug
             
