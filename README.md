@@ -57,3 +57,9 @@ example.clpal.proguard.paid.release
  Build variant: [minApi24, minApi23, minApi21][Demo, Full][Debug, Release]
             
 Corresponding APK: app-[minApi24, minApi23, minApi21]-[demo, full]-[debug, release].apk
+
+            
+  For example,
+Build variant: minApi24DemoDebug
+            
+Corresponding APK: app-minApi24-demo-debug.apk
