@@ -42,3 +42,9 @@ demoRelease
 fullDebug
             
 fullRelease
+            
+            
+example.clpal.proguard.free.debug
+example.clpal.proguard.free.release
+example.clpal.proguard.paid.debug
+example.clpal.proguard.paid.release
