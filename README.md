@@ -52,3 +52,8 @@ example.clpal.proguard.free.release
 example.clpal.proguard.paid.debug
             
 example.clpal.proguard.paid.release
+            
+ # Flavours dimension          
+ Build variant: [minApi24, minApi23, minApi21][Demo, Full][Debug, Release]
+            
+Corresponding APK: app-[minApi24, minApi23, minApi21]-[demo, full]-[debug, release].apk
