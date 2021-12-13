@@ -60,6 +60,7 @@ Corresponding APK: app-[minApi24, minApi23, minApi21]-[demo, full]-[debug, relea
 
             
   For example,
+            
 Build variant: minApi24DemoDebug
             
 Corresponding APK: app-minApi24-demo-debug.apk
